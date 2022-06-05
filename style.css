@@ -1,3 +1,7 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+}
 nav{
     display: flex;
     height: 20vh;
@@ -10,10 +14,16 @@ ul{
     width: 100%;
     align-items: center;
 }
-section{
-    height: 60vh;
-}
 a{
     text-decoration: none;
     color: black;
+}
+.img{
+    position: absolute;
+    display: flex;
+}
+.text{
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
 }
