@@ -27,7 +27,20 @@ a{
     text-align: center;
     justify-content: space-between;
 }
-.card-img{
-    width: 50px;
-    height: 150px;
+article{
+    display: flex;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid red;
+    width: 500px;
+    height: 450px;
+}
+.haut-card{
+    width: 100%;
+}
+img{
+    width: 100%;
 }
