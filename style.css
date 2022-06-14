@@ -37,6 +37,7 @@ article{
     border: 10px solid red;
     width: 500px;
     height: 450px;
+    border-radius: 50px;
 }
 .haut-card{
     width: 100%;
