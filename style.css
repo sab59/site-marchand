@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
 }
+/*nav*/
 nav{
     display: flex;
-    height: 20vh;
+    height: 10vh;
     width: 100vw;
 }
 ul{
@@ -18,7 +19,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.img{
+.img_nav{
     position: absolute;
     display: flex;
 }
@@ -27,9 +28,14 @@ a{
     text-align: center;
     justify-content: space-between;
 }
+/*card*/
 article{
     display: flex;
 
+}
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
 }
 .card{
     display: flex;
@@ -42,6 +48,7 @@ article{
 .haut-card{
     width: 100%;
 }
-img{
-    width: 100%;
+.img{
+    position: absolute
+    
 }
